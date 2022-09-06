@@ -1,3 +1,4 @@
-resource "azuread_resource_group" "this" {
+resource "azurerm_resource_group" "this" {
   name = "gr-test-workflow"
+  location = "West Europe"
 }
