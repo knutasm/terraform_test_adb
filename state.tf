@@ -9,8 +9,6 @@ terraform {
     }
   }
 
-provider "azuread" {
-  features {}    
   backend "azurerm" {
     resource_group_name = "tfstate"
     storage_account_name = "tfstater4nd0m"
@@ -22,6 +20,6 @@ provider "azuread" {
   
 }
 
-
+provider "azuread" {
+  features {}    
 }
-
